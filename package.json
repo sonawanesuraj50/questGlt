@@ -1,17 +1,28 @@
 {
+  "homepage": "http://sonawanesuraj50.github.io/questGlt",
   "name": "questglt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@date-io/date-fns": "^2.11.0",
+    "@material-ui/core": "^4.12.1",
+    "@material-ui/pickers": "^3.3.10",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "date-fns": "^2.0.0-beta.5",
+    "dayjs": "^1.10.6",
+    "mdbreact": "^5.1.0",
     "react": "^17.0.2",
+    "react-datepicker": "^4.1.1",
     "react-dom": "^17.0.2",
+    "react-moment": "^1.1.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
